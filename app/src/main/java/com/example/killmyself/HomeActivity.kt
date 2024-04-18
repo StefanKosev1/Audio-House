@@ -35,6 +35,7 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
 
+
             finish()
         }
     }
